@@ -3,9 +3,9 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>MRI</b></span>
+      <span class="logo-mini"><b>SiO</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>MRI</b>System</span>
+      <span class="logo-lg"><b>Secure In Out</b></span>
     </a>
 
     <!-- Header Navbar -->
@@ -24,11 +24,9 @@
           <!-- Notifications Menu -->
           
           <!-- User Account Menu -->
-          <li><a href="{{URL::to('lang/'."de")}}">German</a></li>
-              <li><a href="{{URL::to('lang/'."en")}}">English</a></li>
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
-            <a href="{{URL::to('logout')}}">{{trans('language.sign out')}}</a>
+            <a href="{{URL::to('logout')}}">Logout</a>
           </li>
           <!-- Control Sidebar Toggle Button -->
          

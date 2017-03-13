@@ -11,18 +11,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="{{URL::asset('../bower_components/AdminLTE/bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{URL::asset('/bower_components/AdminLTE/bootstrap/css/bootstrap.min.css')}}">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{URL::asset('../bower_components/AdminLTE/dist/css/AdminLTE.min.css')}}">
+  <link rel="stylesheet" href="{{URL::asset('/bower_components/AdminLTE/dist/css/AdminLTE.min.css')}}">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect.
   -->
-  <link rel="stylesheet" href="{{URL::asset('../bower_components/AdminLTE/dist/css/skins/skin-blue.min.css')}}">
+  <link rel="stylesheet" href="{{URL::asset('/bower_components/AdminLTE/dist/css/skins/skin-blue.min.css')}}">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,19 +55,14 @@ desired effect
 <div class="wrapper">
 
   <!-- Main Header -->
-  @include('admin.layout.header')
+  @include('layout.header')
   <!-- Left side column. contains the logo and sidebar -->
-  @include('admin.layout.sidebar')
+  @include('layout.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        {{trans('language.admin panel')}}
-        
-      </h1>
-     
     </section>
 
     <!-- Main content -->
@@ -81,10 +76,10 @@ desired effect
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
-  @include('admin.layout.footer')
+  @include('layout.footer')
 
   <!-- Control Sidebar -->
-  @include('admin.layout.controlsidebar')
+  @include('layout.controlsidebar')
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
@@ -95,11 +90,11 @@ desired effect
 <!-- REQUIRED JS SCRIPTS -->
 
 <!-- jQuery 2.2.3 -->
-<script src="{{URL::asset('../bower_components/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
+<script src="{{URL::asset('/bower_components/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js')}}"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="{{URL::asset('../bower_components/AdminLTE/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{URL::asset('/bower_components/AdminLTE/bootstrap/js/bootstrap.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{URL::asset('../bower_components/AdminLTE/dist/js/app.min.js')}}"></script>
+<script src="{{URL::asset('/bower_components/AdminLTE/dist/js/app.min.js')}}"></script>
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

@@ -14,7 +14,6 @@
       <ul class="sidebar-menu">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href="{{URL::to('config')}}">Configuartion Panel</a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
